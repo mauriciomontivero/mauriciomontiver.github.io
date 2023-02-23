@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Gabriel Vargas</title>
+    <link rel="icon" type="image/x-icon" href="/imagenes/icono.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>    
+    <header class="header" id="principal">
+        <div><img src="imagenes/perfil.jpg" class="perfil_img" alt="Ing Gabriel Vargas"></div>
+            <div class="contenedor head">
+            <h1 class="nombre">Gabriel Vargas</h1>
+            <h2 class="titulo">Acerca de mi:</h2>
+            <p class="descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ratione repellendus nulla atque fuga tenetur debitis nisi voluptates magnam? Earum dolor quidem sit iste praesentium exercitationem esse dicta porro blanditiis excepturi. Quisquam, praesentium beatae? Assumenda, iste eius vero similique repudiandae, nobis voluptates voluptatem iure aut quaerat quidem praesentium ipsa ducimus deserunt? Dolores, quidem sed tempore culpa accusantium amet, totam inventore itaque fugiat ea velit eos perferendis. Animi explicabo molestias ullam vero assumenda unde suscipit a tempora architecto, esse odit ab, ex consectetur? Voluptates, maxime ut doloremque in dicta quam explicabo fugiat sapiente rem id illo, illum, nostrum similique tempora officia!
+            </p>
+        </div>
+
+<!--Acá comienza al panel de navegacion lateral para acceder a las distintas secciones-->
+    <div>
+    <nav class="nav">
+        <ul class="list">
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="imagenes/inicio1.png" class="list__img" alt="icono">
+                    <a href="#" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="imagenes/personal1.png" class="list__img" alt="icono">
+                    <a href="#personal" class="nav__link">Informacion personal</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="imagenes/estudios1.png" class="list__img" alt="icono">
+                    <a href="#academica" class="nav__link">Formacion academica</a>
+                    <img src="imagenes/arrow.png" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#informacionacademica" class="nav__link nav__link--inside">Estudios de grado</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="#idiomas" class="nav__link nav__link--inside">Idiomas</a>
+                    </li>
+                </ul>
+            </li>
+           
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="imagenes/laboral1.png" class="list__img" alt="icono">
+                    <a href="#laboral" class="nav__link">Antacedentes laborales</a>
+                    <img src="imagenes/arrow.png" class="list__arrow">
+                </div>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#experiencia1" class="nav__link nav__link--inside">Ford</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="#experiencia2" class="nav__link nav__link--inside">YPF</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="#experiencia3" class="nav__link nav__link--inside">Mercado Libre</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="imagenes/contacto1.png" class="list__img" alt="icono">
+                    <a href="#contacto" class="nav__link">Contacto</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+
+<button onclick="topFunction()" id="myBtn" title="Subir">
+    <img src="imagenes/top.png" class="top_img">
+</button>
+
+
+<!--En esta seccion se incorpora el contenido de cada apartado-->
+
+<main>
+
+<!--Seccion para la informacion personal-->
+    <section id="personal">
+        <h2 class="subtitulo">Informacion personal</h2>
+        <div class="contenedor">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem culpa eaque labore voluptatibus quia tempore earum illum consequuntur doloribus cupiditate, reiciendis ab enim itaque doloremque minima. Culpa, enim ducimus ut iste optio cupiditate inventore consectetur dolore maiores porro ullam sunt aperiam accusantium excepturi, consequuntur quis sapiente ipsa eligendi nobis nulla. Totam consectetur voluptate vel magnam ducimus harum at maiores quod modi, porro ipsa odit deleniti, quasi iste quis magni perspiciatis quas nostrum minima odio, obcaecati iure suscipit. Praesentium, deserunt.</p>
+            <img src="imagenes/personal.png" class="contenedor_img">
+            <div class="checklist-personal">
+                <div class="person" id="informacionacademica"> 
+                <ul>
+                    <li><h3 class="n-person"><span class="number">-</span>Fecha de nacimiento: 03/04/1982</h3></li>
+                    <li><h3 class="n-person"><span class="number">-</span>Edad: 40 años</h3></li>
+                    <li><h3 class="n-person"><span class="number">-</span>Recidencia: 8259 Woodland St</h3></li>
+                    <li><h3 class="n-person"><span class="number">-</span>Estado civil: Soltero</h3></li>
+                    <li><h3 class="n-person"><span class="number">-</span>email: gabriel.vargas@example.com</h3></li>
+                    <li><h3 class="n-person"><span class="number">-</span>Telefono: (433) 402-0502</h3></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!--Seccion para la informacion academica-->
+    <section id="academica">
+        <h2 class="subtitulo">Formacion academica</h2>
+        <div class="contenedor">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem culpa eaque labore voluptatibus quia tempore earum illum consequuntur doloribus cupiditate, reiciendis ab enim itaque doloremque minima. Culpa, enim ducimus ut iste optio cupiditate inventore consectetur dolore maiores porro ullam sunt aperiam accusantium excepturi, consequuntur quis sapiente ipsa eligendi nobis nulla. Totam consectetur voluptate vel magnam ducimus harum at maiores quod modi, porro ipsa odit deleniti, quasi iste quis magni perspiciatis quas nostrum minima odio, obcaecati iure suscipit. Praesentium, deserunt.</p>
+            <img src="imagenes/estudios.png" class="contenedor_img">
+            <div class="checklist-personal">
+                <div class="person">
+                    <h3 class="n-person"><span class="number">1</span>Ingenieria Industrial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati impedit eum cupiditate, aliquam praesentium similique at nemo dicta. Repellendus!</p>
+                </div>
+                <div class="person">
+                    <h3 class="n-person"><span class="number">2</span>MBA - Master Business Administration</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati impedit eum cupiditate, aliquam praesentium similique at nemo dicta. Repellendus!</p>
+                </div>
+                <div class="person">
+                    <h3 class="n-person"><span class="number">3</span>Diseño web HTML, CSS, JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati impedit eum cupiditate, aliquam praesentium similique at nemo dicta. Repellendus!</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+<!--Seccion para los idiomas-->
+    <section class="info idioma" id="idiomas">
+        <h2 class="subtitulo"> Idiomas</h2>
+        <div class="contenedor">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem culpa eaque labore voluptatibus quia tempore earum illum consequuntur doloribus cupiditate, reiciendis ab enim itaque doloremque minima. Culpa, enim ducimus ut iste optio cupiditate inventore consectetur dolore maiores porro ullam sunt aperiam accusantium excepturi, consequuntur quis sapiente ipsa eligendi nobis nulla. Totam consectetur voluptate vel magnam ducimus harum at maiores quod modi, porro ipsa odit deleniti, quasi iste quis magni perspiciatis quas nostrum minima odio, obcaecati iure suscipit. Praesentium, deserunt.</p>
+            <img src="imagenes/idioma.png" class="contenedor_img">
+            <div class="checklist-personal">    
+                <div class="person">
+                    <h3 class="n-person"><span class="number">1</span>Ingles</h3>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt tempora nisi itaque iste esse qui veniam deleniti est quidem. Sit earum architecto nemo doloribus soluta optio obcaecati inventore repudiandae, nesciunt repellendus, corporis asperiores voluptatem amet officiis veniam alias officia!</p>
+                </div>
+                <div class="person">
+                    <h3 class="n-person"><span class="number">2</span>Aleman</h3>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt tempora nisi itaque iste esse qui veniam deleniti est quidem. Sit earum architecto nemo doloribus soluta optio obcaecati inventore repudiandae, nesciunt repellendus, corporis asperiores voluptatem amet officiis veniam alias officia!</p>
+                </div>
+                <div class="person">
+                    <h3 class="n-person"><span class="number">3</span>Portugues</h3>    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt tempora nisi itaque iste esse qui veniam deleniti est quidem. Sit earum architecto nemo doloribus soluta optio obcaecati inventore repudiandae, nesciunt repellendus, corporis asperiores voluptatem amet officiis veniam alias officia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Seccion para la informacion de antecedentes laborales-->
+    <section class="laboral contenedor" id="laboral">
+        <h2 class="subtitulo">Antacedentes laborales</h2>
+        <div class="contenedor">
+            <img src="imagenes/laboral.png" class="contenedor_img">
+            <p class="checklist-personal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem culpa eaque labore voluptatibus quia tempore earum illum consequuntur doloribus cupiditate, reiciendis ab enim itaque doloremque minima. Culpa, enim ducimus ut iste optio cupiditate inventore consectetur dolore maiores porro ullam sunt aperiam accusantium excepturi, consequuntur quis sapiente ipsa eligendi nobis nulla. Totam consectetur voluptate vel magnam ducimus harum at maiores quod modi, porro ipsa odit deleniti, quasi iste quis magni perspiciatis quas nostrum minima odio, obcaecati iure suscipit. Praesentium, deserunt.</p>
+            <div class="person" id="experiencia1">
+                <h3 class="n-person"><span class="number">1</span>Ford -Jefe de mantenimiento-</h3>
+                <img src="imagenes/ford.png" class="exp_img" alt="">                          
+                <ul>
+                    <li><span class="n-exp">Periodo:</span> 2007 - 2010</li>
+                    <li><span class="n-exp">Descripcion de roles:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perspiciatis laboriosam tempore quo eum, mollitia ex doloremque quibusdam soluta perferendis quis quos iusto cumque excepturi possimus tempora! Maxime, libero, dolore eveniet distinctio consequatur doloribus aliquid rem neque corrupti ut tempora magnam numquam. Dolores accusamus suscipit consequatur tempora, quos reprehenderit odio?</li>
+                    <li><span class="n-exp">Referencias:</span> Cosme Fulanito</li>
+                    <li><span class="n-exp">Telefono de contacto:</span> 11-34679832</li>
+                    <li><span class="n-exp">email:</span> cosme.fulanito@gmail.com</li>
+                </ul>
+            </div>
+            <div class="person" id="experiencia2">
+                <h3 class="n-person"><span class="number">2</span>YPF -Jefe de Ingenieria-</h3>
+                <img src="imagenes/ypf-logo.png" class="exp_img" alt="">                          
+                <ul>
+                    <li><span class="n-exp">Periodo:</span> 2010 - 2015</li>
+                    <li><span class="n-exp">Descripcion de roles:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perspiciatis laboriosam tempore quo eum, mollitia ex doloremque quibusdam soluta perferendis quis quos iusto cumque excepturi possimus tempora! Maxime, libero, dolore eveniet distinctio consequatur doloribus aliquid rem neque corrupti ut tempora magnam numquam. Dolores accusamus suscipit consequatur tempora, quos reprehenderit odio?</li>
+                    <li><span class="n-exp">Referencias:</span> Lalo Landa</li>
+                    <li><span class="n-exp">Telefono de contacto:</span> 341-34652838</li>
+                    <li><span class="n-exp">email:</span> lalo.landa@gmail.com</li>
+                </ul>
+            </div>
+            <div class="person" id="experiencia3">  
+                <h3 class="n-person"><span class="number">3</span>Mercado Libre -Desarrollador web-</h3>
+                <img src="imagenes/mercado.png" class="exp_img" alt="">    
+                <ul>
+                    <li><span class="n-exp">Periodo:</span> 2015 - a la actualidad</li>
+                    <li><span class="n-exp">Descripcion de roles:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perspiciatis laboriosam tempore quo eum, mollitia ex doloremque quibusdam soluta perferendis quis quos iusto cumque excepturi possimus tempora! Maxime, libero, dolore eveniet distinctio consequatur doloribus aliquid rem neque corrupti ut tempora magnam numquam. Dolores accusamus suscipit consequatur tempora, quos reprehenderit odio?</li>
+                    <li><span class="n-exp">Referencias:</span> Pepe Guapo</li>
+                    <li><span class="n-exp">Telefono de contacto:</span> 2316-4674862</li>
+                    <li><span class="n-exp">email:</span> pepe.guapo@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--Seccion para iconos de redes y contacto-->
+<footer id="contacto">
+    <div class="contenedor">
+        <div class="contact-us">
+            <h2>Ing. Gabriel Vargas</h2>            
+        </div>
+        <div class="social-media">
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-gmail'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="./" class="social-media-icon">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>
+    </div>
+    <div class="line"></div>
+</footer>
+
+<script src="js/eventos.js"></script>
+
+</body>
+</html>
